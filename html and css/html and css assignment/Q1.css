@@ -1,0 +1,33 @@
+header {
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: left;
+    font-family: cursive;
+    color: rgb(7, 46, 153);
+}
+
+.pic {
+    position: relative;
+    margin-right: 20%;
+    border-radius: 50%;
+    width: 350px;
+    font-style: italic;
+}
+
+.text-center span {
+    text-align: center;
+    border: 2px solid rgba(113, 126, 119, 0.151);
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(4, 119, 119, 0.671);
+}
+
+body {
+    background-color: #ebebeb;
+    border-radius: 25px;
+}
+
+.lining {
+    font-weight: bold;
+    margin: auto;
+}

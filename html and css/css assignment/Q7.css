@@ -1,0 +1,12 @@
+span {
+    border: 2px solid red;
+}
+
+#one {
+    border: dashed green;
+}
+
+body {
+    border-left: 2px solid rgb(159, 239, 253);
+    border-right: 5px solid rgb(159, 239, 253);
+}

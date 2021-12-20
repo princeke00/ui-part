@@ -1,0 +1,22 @@
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: rgb(84, 106, 153);
+    padding-bottom: 10px;
+}
+
+
+/* #three span {
+    background-color: rgb(117, 110, 101);
+} */
+
+#four {
+    background-color: rgb(84, 106, 153);
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: rgb(96, 238, 226);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+
+<body>
+    <form>
+        <label for="Name">Name :</label>
+        <input type="text" id="Name" placeholder="Enter Your Name" required>
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+        <br>
+        <h4>Toppings:</h4>
+        <label>Extra Cheese:</label>
+        <input type="checkbox" name="ExtraCheese" value="ExtraCheese">
+        <label>Pepperoni:</label>
+        <input type="checkbox" name="Pepperoni" value="Pepperoni">
+        <label>Olives:</label>
+        <input type="checkbox" name="Olives" value="Olives">
+        <label>Pepper:</label>
+        <input type="checkbox" name="Pepper" value="Pepper">
+        <label>Bacon:</label>
+        <input type="checkbox" name="Bacon" value="Bacon">
+        <label>Tomatoes:</label>
+        <input type="checkbox" name="Tomatoes" value="Tomatoes">
+        <label>Mushrooms:</label>
+        <input type="checkbox" name="Mushrooms" value="Mushrooms">
+        <h4>How Do You Want To Get Your Pizaa :</h4>
+        <label for="option1">Delivery</label>
+        <input type="radio" name="Delivery" value="Delivery" id="option1">
+        <label for="option2">Pickup</label>
+        <input type="radio" name="Pickup" value="Pickup" id="option2">
+        <h4>Tip?</h4>
+        <select name="tip" id="tip">
+            <option value="q1">15%</option>
+            <option value="q2">20%</option>
+            <option value="q3">25%</option>
+        </select>
+        <br><br>
+        <label for="address">Address:</label>
+        <br><br>
+        <textarea name="address" id="address" cols="20" rows="10" placeholder="Enter Your Address"></textarea>
+        <br><br>
+        <input type="submit" value="submit" name="submit" id="submit">
+        <input type="submit" value="Reset" name="reset" id="reset">
+        <input type="submit" value="Show Summary" name="showSummary" id="showSummary">
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>

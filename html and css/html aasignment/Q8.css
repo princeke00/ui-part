@@ -1,0 +1,27 @@
+    table,
+    th,
+    td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .header {
+        background-color: #009999;
+        padding-right: 72px;
+    }
+    
+    #left {
+        background-color: #808080;
+        padding-top: 10px;
+    }
+    
+    #right {
+        background-color: #bfbfbf;
+        padding-top: 10px;
+    }
